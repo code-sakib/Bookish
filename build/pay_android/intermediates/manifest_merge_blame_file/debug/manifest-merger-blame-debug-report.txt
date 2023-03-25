@@ -1,0 +1,25 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  Copyright 2021 Google LLC
+4  SPDX-License-Identifier: Apache-2.0
+5-->
+6<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+7    package="io.flutter.plugins.pay_android" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="19"
+10-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\pay_android-1.0.8\android\src\main\AndroidManifest.xml
+11        android:targetSdkVersion="19" />
+11-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\pay_android-1.0.8\android\src\main\AndroidManifest.xml
+12
+13    <application>
+13-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\pay_android-1.0.8\android\src\main\AndroidManifest.xml:8:3-12:17
+14        <meta-data
+14-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\pay_android-1.0.8\android\src\main\AndroidManifest.xml:9:5-11:30
+15            android:name="com.google.android.gms.wallet.api.enabled"
+15-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\pay_android-1.0.8\android\src\main\AndroidManifest.xml:10:7-63
+16            android:value="true" />
+16-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\pay_android-1.0.8\android\src\main\AndroidManifest.xml:11:7-27
+17    </application>
+18
+19</manifest>

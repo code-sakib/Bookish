@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-xxhdpi_splash.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-xxhdpi\\splash.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-v21_launch_background.xml.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-v21_background.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-v21\\background.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_splash.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\splash.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-xhdpi_splash.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-xhdpi\\splash.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-hdpi_splash.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-hdpi\\splash.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\drawable-mdpi_splash.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\drawable-mdpi\\splash.png"
+    },
+    {
+        "merged": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\build\\app\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Learning Programming\\Flutter\\Bookish - Copy\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]
