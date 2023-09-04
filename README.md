@@ -1,10 +1,12 @@
-# firebase_1
+# Bookish
 
-A new Flutter project.
+A short description about my project app i.e. Books Shopping App. This app basically 
+allows us to shop from number of categories of books at an impressive price. This has an
+functionality of authentication, switching between themes and many more.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Just clone it👍
 
 A few resources to get you started if this is your first Flutter project:
 
