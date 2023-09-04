@@ -21,7 +21,7 @@
     },
     {
       "name": "async",
-      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.10.0",
+      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -33,7 +33,7 @@
     },
     {
       "name": "characters",
-      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/characters-1.2.1",
+      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/characters-1.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -75,9 +75,9 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.17.0",
+      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.17.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "convert",
@@ -141,7 +141,7 @@
     },
     {
       "name": "firebase_auth_web",
-      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_web-5.2.1",
+      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_web-5.2.2",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
@@ -183,9 +183,9 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///C:/src/flutter/packages/flutter",
+      "rootUri": "file:///C:/Users/Sakib/src/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter_launcher_icons",
@@ -201,9 +201,9 @@
     },
     {
       "name": "flutter_localizations",
-      "rootUri": "file:///C:/src/flutter/packages/flutter_localizations",
+      "rootUri": "file:///C:/Users/Sakib/src/flutter/packages/flutter_localizations",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter_native_splash",
@@ -219,15 +219,15 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///C:/src/flutter/packages/flutter_test",
+      "rootUri": "file:///C:/Users/Sakib/src/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///C:/src/flutter/packages/flutter_web_plugins",
+      "rootUri": "file:///C:/Users/Sakib/src/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "google_fonts",
@@ -261,13 +261,13 @@
     },
     {
       "name": "intl",
-      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.17.0",
+      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.18.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "js",
-      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.6",
+      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -285,7 +285,7 @@
     },
     {
       "name": "matcher",
-      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.14",
+      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.15",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -297,7 +297,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.8.0",
+      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.9.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -429,9 +429,9 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///C:/src/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///C:/Users/Sakib/src/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "source_span",
@@ -465,7 +465,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.4.17",
+      "rootUri": "file:///C:/Users/Sakib/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.5.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -524,7 +524,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-03-25T16:53:59.644630Z",
+  "generated": "2023-09-04T15:25:26.578758Z",
   "generator": "pub",
-  "generatorVersion": "3.0.0-122.0.dev"
+  "generatorVersion": "3.0.6"
 }
