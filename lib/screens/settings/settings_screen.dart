@@ -1,12 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_1/authenticate/authenticating.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_1/Themeing/themeing.dart';
-import 'package:firebase_1/main.dart';
-import 'package:firebase_1/screens/cart.dart';
-import 'package:firebase_1/services/bottom_appbar.dart';
 import 'package:toast/toast.dart';
+
+import '../../Themeing/themeing.dart';
+import '../../authenticate/authenticating.dart';
+import '../../main.dart';
+import '../../services/bottom_appbar.dart';
+import '../cart.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({Key? key}) : super(key: key);
@@ -89,9 +90,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
         "You'll have to Sign up and verify your email then books are divided into different categories here. The orders will be tracked down and will show in the cart accordingly.You can't order more than 10 books per order .There is functionality to switch between different themes. Email to the id below for any inconvenience";
     const String developerId = "sakib.developer1@gmail.com";
 
-    textAboutApp() => Wrap(
+    textAboutApp() => const Wrap(
           runSpacing: 5,
-          children: const [
+          children: [
             Text(
               'About App',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
@@ -136,9 +137,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
     BuildContext context,
   ) {
     showintProfileImage() {
-      return Row(
+      return const Row(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: const [
+        children: [
           SizedBox(
             width: 110,
           ),
@@ -212,7 +213,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
               }
               return buildUserProfile(currentUser);
             } else {
-              print(snapshot.error);
               return const Center(child: Text('Error loading profile'));
             }
           })),

@@ -36,6 +36,6 @@ CardTheme cardTheme() {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)));
 }
 
-IconThemeData IconTheme() {
+IconThemeData iconTheme() {
   return const IconThemeData();
 }

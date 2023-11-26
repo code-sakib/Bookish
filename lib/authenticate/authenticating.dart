@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:email_validator/email_validator.dart';
-import 'package:firebase_1/screens/Home/home_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-import 'package:firebase_1/main.dart';
+import '../main.dart';
+import '../screens/Home/home_screen.dart';
 
 class AuthPage extends StatefulWidget {
   const AuthPage({super.key});
@@ -277,7 +277,6 @@ class _SignInLoginWidgetState extends State<SignInLoginWidget> {
           email: _emailController.text.trim(),
           password: _passwordController.text.trim());
     } on FirebaseAuthException catch (e) {
-
       Utilis.showSnackBar(e.message);
     }
 
@@ -380,7 +379,6 @@ class Utilis {
       ..removeCurrentSnackBar()
       ..showSnackBar(snackBar);
   }
-
 }
 
 class VerifyEmailPage extends StatefulWidget {
@@ -428,7 +426,6 @@ class _VerifyEmailPageState extends State<VerifyEmailPage> {
       Timer.periodic(const Duration(seconds: 5), (_) {});
       setState(() => shouldResend = true);
     } catch (e) {
-      print(e);
       Utilis.showSnackBar(e.toString());
     }
   }

@@ -1,5 +1,5 @@
-import 'package:firebase_1/database/descriptions.dart';
-import 'package:firebase_1/database/img_urls.dart';
+import '../database/descriptions.dart';
+import '../database/img_urls.dart';
 
 class Books {
   late String category;

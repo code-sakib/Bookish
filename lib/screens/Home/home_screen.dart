@@ -1,15 +1,16 @@
 import 'dart:async';
 
-import 'package:firebase_1/main.dart';
-import 'package:firebase_1/screens/Home/Utilis/category_pressed.dart';
-import 'package:firebase_1/screens/Home/model/categories_builder.dart';
-import 'package:firebase_1/screens/book/book_screen.dart';
-import 'package:firebase_1/screens/cart.dart';
-import 'package:firebase_1/services/bottom_appbar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_1/models/books.dart';
-import 'package:firebase_1/screens/Home/view/headline.dart';
+
+import '../../main.dart';
+import '../../models/books.dart';
+import '../../services/bottom_appbar.dart';
+import '../book/book_screen.dart';
+import '../cart.dart';
+import 'Utilis/category_pressed.dart';
+import 'model/categories_builder.dart';
+import 'view/headline.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -282,7 +283,6 @@ class MySearchDelegate extends SearchDelegate {
         }
       }
       if (objs.category == 'Novel') {
-        print('reached');
         for (var bookName in objs.bookNameWithAuthor.keys) {
           if (bookName == query) {
             return Book(categoryToBeDisplayed: objs, index: i);

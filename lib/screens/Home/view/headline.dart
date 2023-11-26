@@ -1,5 +1,6 @@
-import 'package:firebase_1/screens/Home/Utilis/headline_design.dart';
 import 'package:flutter/material.dart';
+
+import '../Utilis/headline_design.dart';
 
 Padding headLine(BuildContext context) {
   return Padding(

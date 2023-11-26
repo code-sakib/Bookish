@@ -1,5 +1,6 @@
-import 'package:firebase_1/models/books.dart';
 //To change color when pressed
+
+import '../../../models/books.dart';
 
 changingButtonColor(List<Books> bookObjs, int index) {
   List<bool> currentBk =

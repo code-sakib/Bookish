@@ -1,6 +1,7 @@
-import 'package:firebase_1/screens/Home/home_screen.dart';
-import 'package:firebase_1/screens/Settings/settings_screen.dart';
 import 'package:flutter/material.dart';
+
+import '../screens/Home/home_screen.dart';
+import '../screens/settings/settings_screen.dart';
 
 bottomAppBar(BuildContext context) => BottomAppBar(
       notchMargin: 5,

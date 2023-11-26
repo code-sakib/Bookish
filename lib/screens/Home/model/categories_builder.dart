@@ -1,10 +1,11 @@
-import 'package:firebase_1/Themeing/themeing.dart';
-import 'package:firebase_1/models/books.dart';
-import 'package:firebase_1/screens/Home/home_screen.dart';
-import 'package:firebase_1/screens/book/book_screen.dart';
-import 'package:firebase_1/services/getting_imgs.dart';
-import 'package:firebase_1/services/price_assign.dart';
 import 'package:flutter/material.dart';
+
+import '../../../Themeing/themeing.dart';
+import '../../../models/books.dart';
+import '../../../services/getting_imgs.dart';
+import '../../../services/price_assign.dart';
+import '../../book/book_screen.dart';
+import '../home_screen.dart';
 
 categoryBuilder(Books categoryToBeDisplayed, int index, BuildContext context) =>
     SizedBox(

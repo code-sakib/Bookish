@@ -37,13 +37,13 @@ dependencies:
   firebase_core: ^2.4.0
   firebase_auth: ^4.2.1
   provider: ^6.0.3
-  google_fonts: ^3.0.1
   cloud_firestore: ^4.2.0
   email_validator: ^2.1.17
   firebase_storage: ^11.0.8
   flutter_native_splash: ^2.2.9
   toast: ^0.3.0
   pay: ^1.0.11
+  google_fonts: ^6.1.0
 
 
 

@@ -1,11 +1,12 @@
-import 'package:firebase_1/authenticate/authenticating.dart';
-import 'package:firebase_1/models/books.dart';
-import 'package:firebase_1/screens/Home/model/categories_builder.dart';
-import 'package:firebase_1/screens/cart.dart';
-import 'package:firebase_1/services/bottom_appbar.dart';
-import 'package:firebase_1/services/price_assign.dart';
-import 'package:firebase_1/stateManagment/cart_provider.dart';
 import 'package:flutter/material.dart';
+
+import '../../authenticate/authenticating.dart';
+import '../../models/books.dart';
+import '../../services/bottom_appbar.dart';
+import '../../services/price_assign.dart';
+import '../../stateManagment/cart_provider.dart';
+import '../Home/model/categories_builder.dart';
+import '../cart.dart';
 
 class Book extends StatefulWidget {
   const Book(
@@ -287,8 +288,8 @@ class _ShoppingTabState extends State<ShoppingTab> {
                                       const Color.fromARGB(255, 252, 193, 104));
                             }
                           }),
-                      child: Row(
-                        children: const [
+                      child: const Row(
+                        children: [
                           Icon(
                             Icons.add,
                             color: Color(0xFF000000),
@@ -311,7 +312,7 @@ class _ShoppingTabState extends State<ShoppingTab> {
             onPressed: () {
               var cartProvider = CartProvider();
 
-              return cartProvider.addItems(widget.categoryToBeDisplayed,
+              cartProvider.addItems(widget.categoryToBeDisplayed,
                   widget.index, totalPrice, quantity);
             },
             icon: const Icon(Icons.add_shopping_cart_rounded),
@@ -333,9 +334,9 @@ aboutQuality() {
   const String quality =
       "The book you'll get will of Original paper back as shown with a usefull bookmark attached in it, you can replace, exchange or give feedback about the product for your convenience. Thank You🤗";
 
-  return Wrap(
+  return const Wrap(
     runSpacing: 10,
-    children: const [
+    children: [
       Divider(
         thickness: 1,
         height: 20,

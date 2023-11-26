@@ -1,10 +1,12 @@
-import 'package:firebase_1/Themeing/themeing.dart';
-import 'package:firebase_1/authenticate/authenticating.dart';
-import 'package:firebase_1/firebase_options.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+import 'Themeing/themeing.dart';
+import 'authenticate/authenticating.dart';
+import 'firebase_options.dart';
+import 'making_best/first_file.dart';
 
 void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,6 +20,8 @@ void main(List<String> args) async {
       systemNavigationBarContrastEnforced: true));
 
   runApp(const App());
+
+  // pushingThings();
 }
 
 final navigatorKey = GlobalKey<NavigatorState>();

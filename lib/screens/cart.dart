@@ -4,9 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:pay/pay.dart';
 import 'package:provider/provider.dart';
 
-import 'package:firebase_1/authenticate/authenticating.dart';
-import 'package:firebase_1/stateManagment/cart_provider.dart';
 import 'package:toast/toast.dart';
+
+import '../authenticate/authenticating.dart';
+import '../stateManagment/cart_provider.dart';
 
 class CartScreen extends StatefulWidget {
   const CartScreen({super.key});
@@ -140,9 +141,7 @@ class _CartScreenState extends State<CartScreen> {
         type: GooglePayButtonType.pay,
         height: 50,
         width: 200,
-        onPaymentResult: (resultData) {
-          print(resultData);
-        },
+        onPaymentResult: (resultData) {},
         onPressed: (() =>
             grandTotalPrice != 0 ? orderPlacing() : cartIsEmptyToast()),
         loadingIndicator: const Center(
@@ -174,9 +173,9 @@ class _CartScreenState extends State<CartScreen> {
                   ),
                 ],
               ),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
+                children: [
                   Text('Delivery Charges:'),
                   Text('Rs. 30'),
                 ],
@@ -193,8 +192,8 @@ class _CartScreenState extends State<CartScreen> {
                   ),
                 ],
               ),
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Text(
                     '*Orders will be reach within 3-4 working days.',
                     style: TextStyle(color: Colors.red),
