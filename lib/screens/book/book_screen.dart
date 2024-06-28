@@ -61,8 +61,13 @@ class _BookState extends State<Book> {
               child: SizedBox(
                   height: 200,
                   width: 200,
-                  child: Image.network(widget
-                      .categoryToBeDisplayed.listOfImgUrls[widget.index])),
+                  child: Image.network(
+                    widget.categoryToBeDisplayed.listOfImgUrls[widget.index],
+                    errorBuilder: (context, error, stackTrace) => const Text(
+                      'img unavailable',
+                      style: TextStyle(color: Colors.red),
+                    ),
+                  )),
             )),
       ),
     );
@@ -312,8 +317,8 @@ class _ShoppingTabState extends State<ShoppingTab> {
             onPressed: () {
               var cartProvider = CartProvider();
 
-              cartProvider.addItems(widget.categoryToBeDisplayed,
-                  widget.index, totalPrice, quantity);
+              cartProvider.addItems(widget.categoryToBeDisplayed, widget.index,
+                  totalPrice, quantity);
             },
             icon: const Icon(Icons.add_shopping_cart_rounded),
             label: const Text('Add to cart'),

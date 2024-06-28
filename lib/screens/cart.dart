@@ -64,7 +64,13 @@ class _CartScreenState extends State<CartScreen> {
             ),
             child: ListTile(
               contentPadding: const EdgeInsets.all(8),
-              leading: Image.network(listOfOrderedBookImage[index]),
+              leading: Image.network(
+                listOfOrderedBookImage[index],
+                errorBuilder: (context, error, stackTrace) => const Text(
+                  'img unavailable',
+                  style: TextStyle(color: Colors.red),
+                ),
+              ),
               title: Text(listOfOrderedBookNames[index]),
               subtitle: Text(listOfOrderedBookNamesAuthor[index]),
               trailing: Column(

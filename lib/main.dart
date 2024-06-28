@@ -6,7 +6,6 @@ import 'package:flutter/services.dart';
 import 'Themeing/themeing.dart';
 import 'authenticate/authenticating.dart';
 import 'firebase_options.dart';
-import 'making_best/first_file.dart';
 
 void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();
