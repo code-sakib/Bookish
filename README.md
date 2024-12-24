@@ -6,7 +6,7 @@ functionality of authentication, switching between themes and many more.
 
 ## Getting Started
 
-Just clone it👍
+📖🛒😁
 
 A few resources to get you started if this is your first Flutter project:
 
